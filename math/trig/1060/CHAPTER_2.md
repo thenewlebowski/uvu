@@ -1,6 +1,6 @@
 # Trigonometry 1060 Chapter 2
 
-## Basic
+## Review
 * Pythagorean Theorem: 
     * **a^2 + b ^2 = c^2**
 ## Conversions
@@ -12,6 +12,13 @@
     * **θ = α(180/π)**
         * α = the angle in radians
 
+## Measurments
+---
+ * Arc Length - the length that subtends the angle
+    * **r(θ)**
+        * where θ is the angle in radians
+        * !important if the length is in degrees you must first convert it to radians with the method mentioned above
+
 ## Velocity
 ---
 * Angular Velocity - how fast the angle is moving for given amount 
@@ -21,9 +28,6 @@
     * **S/t**
         * S = the arc length or the length subtending the angle
         * t = time
-    * !important this only works of the S is in radians
-
-
 
 ## Trigonometric Functions
 ---
@@ -50,3 +54,39 @@
 * *figure out how to add the greek symbol for theta inside all of the parenthesis*
 ---
 
+## Trigonometric Graphs
+---
+* When graphing a trig function we can keep the following equation in mind
+    * **f(x) = a(trig func(b(x) - c) + d**
+        * a = the amplitude that the graph will reach also known as vertical dilation
+            * if a is negative then the graph will be reflected over the x axis
+        * b = (2π/b) the new period of the graph also known as horizontal translation by default it is 2π
+            * if b is negative then the graph will be reflected over the y axis
+        * c = the phase shift (horizontal translation)
+        * d = the vertical shift (sinusoidal axis) (midline)
+
+* cos(θ)
+
+
+![cos graph](./pictures/graphs/cos.png)
+
+* sin(θ)
+
+![sin graph](./pictures/graphs/sin.png)
+
+* tan(θ)
+
+![tan graph](./pictures/graphs/tan.png)
+
+* csc(θ)
+
+![csc graph](./pictures/graphs/csc.png)
+
+
+* sec(θ)
+
+![sec graph](./pictures/graphs/sec.png)
+
+* cot(θ)
+
+![cot graph](./pictures/graphs/cot.png)
