@@ -12,12 +12,38 @@
     * **θ = α(180/π)**
         * α = the angle in radians
 
-## Measurments
+## Measurements
 ---
  * Arc Length - the length that subtends the angle
     * **r(θ)**
         * where θ is the angle in radians
         * !important if the length is in degrees you must first convert it to radians with the method mentioned above
+
+## Angle Definitions
+---
+* π (pi) 
+    * the angle π is a straight line
+* co-terminal angles
+    * co-terminal angles, θ and α, are co terminal if 
+* supplementary angles 
+    * supplementary angles, θ and α, are supplementary if their sum is π or 180 degrees
+* right angle
+    * an angle is a right angle if it is π/2 or 90 degrees.
+    * a right triangle is similar, if two sides of a π/2 or 90 degrees it is considered a right triangle.
+* coordinate angels
+    * coordinate angles are angles where the terminal side lies on one of the axis
+* acute angles
+    * Acuate angles are angles that fall below π/2 or 90 degrees
+* obtuse angle
+    * an angle is obtuse if the angle is greater then π/2 (90 degrees) and less then π (180 degrees)
+* 
+## Degrees Minutes Seconds
+* when writing an angle in degrees we can write the angle in decimals or in degrees minutes and seconds whish is a base representation after the decimal point. 
+    * to convert from degree, minute, second format to decimals we use the following procedure 
+        * if an angle has *n* degrees, *m* minutes, and *s* seconds then the decimal representation the angle is 
+            * ***n + (m/60) + (s/3600)***
+    * to convert from decimal to degree, minute, second, format  if the angle is listed as having n.d<sub>1</sub>d<sub>2</sub>d<sub>3</sub>... degrees than it still has n degrees in the new format the number of seconds is the digits of the product 60(d<sub>1</sub>d<sub>2</sub>d<sub>3</sub>...) before the decimal of the digits of 60(d<sub>1</sub>d<sub>2</sub>d<sub>3</sub>...). after the decimal point are m<sub>1</sub>m<sub>2</sub>m<sub>3</sub>... then you multi this decimal by 60 again to get the number of seconds 60(m<sub>1</sub>m<sub>2</sub>m<sub>3</sub>...).
+
 
 ## Velocity
 ---
@@ -49,10 +75,12 @@
     * **cos(θ)/sin(θ)**
 > you can remember everything above with the following mnemonic **SOHCAHTOA**
 
-### *Trigonometric Functions Refactors* 
----
-* *figure out how to add the greek symbol for theta inside all of the parenthesis*
----
+* We define the other trig functions (from sin, cos, and tan) to be the usual ratios of sine and cosine at angles which are not positive acute angles if those ratios are defined.
+    * specifically
+        * tan(θ) = (y/x) = sin(θ)/cos(θ) = 1/cot(θ)
+        * cot(θ) = (x/y) = cos(θ)/sin(θ) = 1/tan(θ)
+        * sec(θ) = 1/cos(θ)
+        * csc(θ) = 1/sin(θ)
 
 ## Trigonometric Graphs
 ---
@@ -90,3 +118,21 @@
 * cot(θ)
 
 ![cot graph](./pictures/graphs/cot.png)
+
+## Wrapping Function
+we can also use wrapping functions where we define W(t)to be the point on the unit circle we end at if we move counter clock wise a distance t along the unit circle from the point (1, 0). if the point we end at is W(t) = (x, y) then x = cos(t) and sin(t) since we don't have a convenient expression for the terminal (x, y) except in terms of cosine and sine of the angle, however this description is not especially useful when determining the values of the trig functions, so the procedure we use tends to involve reference angles.
+
+# Standard Reference Angles
+
+
+* an angle that is in standard position if the initial side is the non-negative axis
+
+    * standard ref angles
+        
+        | θ     | sin(θ)       | cos(θ)       |
+        | ----- | ------------ | ------------ |
+        | 0     | 0            | 1            |
+        |  π/6  | 1/2          | $\sqrt{3}$/2 |
+        |  π/4  | $\sqrt{2}$/2 | $\sqrt{2}$/2 |
+        |  π/3  | $\sqrt{3}$/2 | 1/2          |
+        |  π/2  | 1            | 0            |
