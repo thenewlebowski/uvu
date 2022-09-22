@@ -15,7 +15,7 @@
     * Nonverbal communication controlling the flow of conversation
 6. Substituting
     * Nonverbal communication that has a direct verbal transition
-    * Emblems: Nonverbal communication that is clear and unambiguos with a verbal equivalent in a given culture
+    * Emblems: Nonverbal communication that is clear and unambiguous with a verbal equivalent in a given culture
 
 ### How does touch impact communication?
 * Haptics
@@ -134,3 +134,6 @@ conversation
 * Nonverbal immediacy
     * The use of behaviors to increase sensory stimulation between individuals
     * Increases physical and psychological closeness
+
+## Attribution Error
+* Who we think we are perceived by other people
